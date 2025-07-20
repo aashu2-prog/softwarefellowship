@@ -1,0 +1,17 @@
+{
+  "configurations": [
+    {
+      "name": "Raylib Setup",
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/homebrew/include" // or "C:/msys64/mingw64/include" or "/usr/include"
+      ],
+      "defines": [],
+      "compilerPath": "/usr/bin/g++",  // Change for Windows or macOS
+      "cStandard": "c11",
+      "cppStandard": "c++17",
+      "intelliSenseMode": "macos-clang-arm64"  // Adjust based on OS
+    }
+  ],
+  "version": 4
+}
